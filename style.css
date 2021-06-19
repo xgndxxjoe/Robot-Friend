@@ -1,0 +1,102 @@
+body {
+
+    display: flex;
+    flex-direction: column;
+    margin-left: 40px;
+}
+div {
+    display: block;
+}
+.header {
+    background-color: aqua;
+    width: 160px;
+    height: 120px;
+    margin: 0 auto;
+    border-radius: 80px 80px 0px 0px;
+    margin-bottom: 10px;
+
+}
+
+.header:hover {
+    width: 222px;
+    transition: 1s ease-in-out;
+}
+
+.eyes {
+    display: flex;
+}
+
+.eye-right, 
+.eye-left {
+    background-color: white;
+    width: 20px;
+    height: 20px;
+    border-radius: 10px;
+}
+
+.eye-right {
+    position: relative;
+    top: 70px;
+    left: 90px;
+}
+
+.eye-left {
+    position: relative;
+    top: 70px;
+    left: 36px;
+}
+
+.upper-body {
+
+    display: flex;
+    margin: 0 auto;
+
+}
+
+.body-robot {
+    background-color: aqua;
+    width: 160px;
+    height: 160px;
+    border-radius: 0px 0px 40px 40px;
+
+}
+
+.hand-right,
+.hand-left {
+    background-color: aqua;;
+    width: 28px;
+    height: 84px;
+    border-radius: 16px;
+    margin: 0 4px 0 4px;
+
+}
+
+.feet-robot {
+    margin: 0 auto;
+    width: 160px;
+    height: 84px;
+    display: flex;
+}
+.foot-right {
+    background-color: aqua;
+    width: 28px;
+    height: 74px;
+    border-radius: 0 0 16px 16px;
+    margin-left: 42px;
+}
+
+.foot-left {
+    background-color: aqua;
+    width: 28px;
+    height: 74px;
+    border-radius: 0 0 16px 16px;
+    margin-left: 32px;
+}
+
+.foot-left:hover {
+	-webkit-transform: rotate(20deg);
+    -moz-transform: rotate(20deg);
+    -o-transform: rotate(20deg);
+    -ms-transform: rotate(20deg);
+    transform: rotate(20deg);
+}
